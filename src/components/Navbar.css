@@ -1,0 +1,44 @@
+/* Navbar */
+.navbar {
+  background-color: #f5c518; /* Primary gold */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.navbar .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  height: 5rem; /* Adjusted logo size */
+  margin-right: 1rem;
+}
+
+.navbar .nav-link {
+  font-size: 1.2rem;
+  color: #4a2c2a; /* Dark brown text */
+  transition: color 0.3s;
+  padding: 0.5em 1em; /* Added padding for better spacing */
+  border-radius: 5px; /* Rounded corners for links */
+}
+.navbar .nav-link-main {
+  font-size: 1.5rem;
+}
+.navbar .nav-link-main:hover {
+  color: #a58a3f;
+}
+
+.navbar .nav-link:hover {
+  color: #a58a3f;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1em; /* Space between nav links */
+  align-items: center; /* Ensure all links are vertically centered */
+}

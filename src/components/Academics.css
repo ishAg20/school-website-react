@@ -1,0 +1,30 @@
+.academics {
+  background-color: #f3e4d3;
+  padding: 2rem;
+  color: #4a2c2a;
+  height: 100%;
+}
+
+.academics h1,
+.academics h2 {
+  color: #4a2c2a;
+  font-size: 2rem;
+}
+
+.academics p {
+  color: #5d4037;
+  font-size: 1.25rem;
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

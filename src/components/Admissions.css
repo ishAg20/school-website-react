@@ -1,0 +1,40 @@
+.admissions {
+  background-color: #f3e4d3;
+  padding: 2rem;
+  color: #4a2c2a;
+}
+
+.admissions h1,
+.admissions h2 {
+  color: #4a2c2a;
+  font-size: 2rem;
+}
+
+.admissions p,
+.admissions ul {
+  color: #5d4037;
+  font-size: 1.25rem;
+}
+
+.admissions a {
+  color: #4a2c2a;
+  text-decoration: underline;
+  margin-right: 0.5rem;
+}
+
+.admissions ul {
+  padding-left: 2rem;
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

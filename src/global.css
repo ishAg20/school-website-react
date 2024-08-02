@@ -1,0 +1,62 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffbe7; /* Light beige */
+  color: #4a2c2a; /* Dark brown */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  color: #4a2c2a;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #f5c518; /* Gold */
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.slideIn {
+  animation: slideIn 1.5s ease-in-out;
+}

@@ -1,0 +1,59 @@
+.about {
+  background-color: #f3e4d3;
+  color: #4a2c2a;
+  padding: 3rem 2rem;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.text-section {
+  flex: 2;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about h2 {
+  color: #4a2c2a;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  color: #5d4037;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding-left: 2rem;
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.principal {
+  margin-top: 10rem;
+}
