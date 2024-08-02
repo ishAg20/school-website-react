@@ -1,4 +1,6 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import "./Gallery.css";
 
 const images = [
@@ -21,7 +23,11 @@ const Gallery = () => {
       <div className="gallery-grid">
         {images.map((src, index) => (
           <div key={index} className="gallery-item">
-            <img src={src} alt={`Gallery Image ${index + 1}`} />
+            <LazyLoadImage
+              src={src}
+              alt={`Gallery Image ${index + 1}`}
+              effect="blur"
+            />
           </div>
         ))}
       </div>
