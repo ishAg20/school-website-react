@@ -73,7 +73,9 @@ The built files will be located in the `build` directory.
 
 - `src/` - Contains the source code for the project
   - `components/` - React components for various sections
-  - `styles/` - CSS files for styling
+    - `About.css`
+    - `About.js`
+    - `Academics.css`
   - `App.js` - Main application file
   - `index.js` - Entry point for the React application
 
@@ -82,3 +84,11 @@ The built files will be located in the `build` directory.
 
 The contact form in the `ContactUs` component uses Formik and Yup for form handling and validation. 
 Feel free to customize the README as needed to better fit your project specifics or add additional sections.
+
+### 
+
+```bash
+npm install react-lazy-load-image-component
+npm install react-slick slick-carousel
+npm install formik yup                   
+```
