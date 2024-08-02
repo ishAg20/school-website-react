@@ -2,13 +2,16 @@ import React from "react";
 import "./Gallery.css";
 
 const images = [
-  "https://theheritageschool.org/images/new-gallery/post%201%20(2)-min.jpg",
-  "https://theheritageschool.org/gallery.php#images1-5",
-  "https://theheritageschool.org/gallery.php#images2-5",
-  "https://theheritageschool.org/gallery.php#images3-4",
-  "https://theheritageschool.org/gallery.php#images6-4",
-  "https://theheritageschool.org/gallery.php#images5-5",
-  "https://theheritageschool.org/gallery.php#images6-5",
+  "image1.jpg",
+  "image2.jpg",
+  "image3.jpg",
+  "image4.jpg",
+  "image5.webp",
+  "image6.jpg",
+  "image7.jpg",
+  "image8.jpg",
+  "image9.jpg",
+  "image10.jpg",
 ];
 
 const Gallery = () => {
